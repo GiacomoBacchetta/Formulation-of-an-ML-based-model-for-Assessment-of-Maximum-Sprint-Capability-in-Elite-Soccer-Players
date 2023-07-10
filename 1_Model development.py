@@ -4,12 +4,11 @@
 
 import pandas as pd
 import numpy as np
-import zipfile
 from scipy import stats
 import matplotlib.pyplot as plt
 import numpy as np
 import plotly.express as px
-from sklearn import preprocessing, linear_model, model_selection, metrics, feature_selection, cluster
+from sklearn import preprocessing, linear_model, model_selection, metrics, cluster
 import scipy
 import statsmodels.api as sm
 import seaborn as sns
@@ -19,12 +18,7 @@ from openpyxl.utils import get_column_letter
 import matplotlib.cm as cm
 
 from sklearn_extra.cluster import KMedoids
-from sklearn.metrics import silhouette_score
 from sklearn.model_selection import ParameterGrid
-
-import numpy as np
-from scipy.optimize import curve_fit
-from sklearn.linear_model import LogisticRegression
 
 import warnings
 
@@ -380,7 +374,6 @@ def sprint_test(coefficients, coefficients_stamina, minute=0, plotting=False):
                 fig.update_layout(width=600, height=400)
                 fig.show()
 
-    # return display(pd.DataFrame(sprint_list))
     return time_list
 
 # ---
