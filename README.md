@@ -1,6 +1,6 @@
 # Formulation of an ML-based model for the Assessment of Maximum Sprint Capability in Elite Soccer Players
 
-In recent years, machine learning techniques have gained widespread popularity, fueled by the availability of vast amounts of data across various industries. \newline
+In recent years, machine learning techniques have gained widespread popularity, fueled by the availability of vast amounts of data across various industries. \\
 The sports industry, including football, has also embraced these techniques to gain a competitive edge.
 In our work, we focus on estimating and analyzing the maximum acceleration capability of football players using tracking data, which defines the player’s position on the field at each frame. This information can contribute to more precise tactical preparation and personalized training strategies.
 We develop a regression-based model that reconstructs a profile for each player, capturing the relationship between acceleration and speed during a maximum sprint when the athlete performs at their peak capability.
