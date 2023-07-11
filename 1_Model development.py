@@ -314,7 +314,7 @@ def sprint_test(coefficients, coefficients_stamina, minute=0, plotting=False):
 
     model = coefficients[::-1]
 
-    distance_list = [10, 20, 30, 50, 75, 100]
+    distance_list = [10, 20, 35, 50, 75, 100]
     v0_list = [0, 2.5, 5.5, 7]
     # sprint_list = []
 
