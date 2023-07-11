@@ -430,7 +430,7 @@ def clustering_method(data_dict, k=2):
         silhouette = metrics.silhouette_score(X, labels)
         calinski_harabasz = metrics.calinski_harabasz_score(X, labels)
         davies_bouldin = metrics.davies_bouldin_score(X, labels)
-        return silhouette + calinski_harabasz/100 - davies_bouldin
+        return silhouette + calinski_harabasz/500 - davies_bouldin
 
     names = np.array(list(data_dict.keys()))
     data = np.array(list(data_dict.values()))[:, :]
